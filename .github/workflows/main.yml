@@ -37,7 +37,7 @@ jobs:
           uses: Azure/k8s-deploy@v3.0
           with:
             image: brunosilvagarciadocker/rotten-potatoes:v1.0.${{ github.run_number }}
-            manifest: |
+            manifests: |
               deployment.yaml
             
     
