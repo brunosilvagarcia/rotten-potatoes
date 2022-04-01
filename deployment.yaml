@@ -55,7 +55,7 @@ spec:
     spec:
       containers:
         - name: rp-pod
-          image: brunosilvagarciadocker/rotten-potatoes:latest
+          image: brunosilvagarciadocker/rotten-potatoes:v1.0.3
           ports:
             - containerPort: 5000
           env:
