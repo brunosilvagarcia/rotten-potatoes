@@ -75,4 +75,4 @@ spec:
   - protocol: TCP
     port: 5000
     nodePort: 30050
-  type: LoadBalancer
+  type: NodePort
